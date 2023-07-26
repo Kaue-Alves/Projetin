@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetin</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        h1, h2{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            margin-bottom: 0;
+        }
+
+        input{
+            margin: 0;
+        }
+
+        button{
+            color: #FFFFFF;
+            width: 400px;
+            height: 40px;
+            margin: 0;
+            background-color: transparent;
+            font-size: 1.2em;
+            border-radius: 5px;
+            box-shadow: 0px 0px 0px 1px #FFFFFF;
+            transition: 0.4s;
+        }
+
+        button:hover{
+            color: #000000;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 0px 1px #00ff0d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Albion Online</h1>
+        <h2>Sign Up</h2>
+        <div class="info">
+            <input type="text" name="username" id="name" placeholder="Username">
+            <input type="email" name="Email" id="Email" placeholder="Email">
+            <input type="password" name="senha" id="senha" placeholder="Senha">
+            <input type="password" name="senha" id="senha" placeholder="Confirmar senha">
+            <button type="submit" >Cadastrar</button>
+        </div>
+    </div>
+</body>
+</html>

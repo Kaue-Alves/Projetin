@@ -47,14 +47,15 @@ p{
 
 input{
     color: white;
+    caret-color: rgb(255, 0, 64);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     background-color: transparent;
     border-radius: 5px;
     box-shadow: 0px 0px 0px 1px #FFFFFF;
     margin-left: 50px;
-    width: 80%;
-    height: 40px;
+    width: 420px;
+    height: 34px;
 }
 
 input:hover{
@@ -62,6 +63,7 @@ input:hover{
     background-color: rgba(255, 255, 255, 0.600);
     box-shadow: 0px 0px 0px 1px #ffffff;
 }
+
 
 .a{
     grid-row: 1;
