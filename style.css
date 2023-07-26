@@ -1,0 +1,80 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpaperaccess.com/full/109676.jpg);
+}
+
+
+
+.container{
+    max-width: 690px;
+    background-color: transparent;
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 3px #FFFFFF;
+}
+
+h1{
+    margin-bottom: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+    display: grid;
+    grid-template-rows: 14% 35% 14% 37%;
+    width: 100%;
+    height: 70%;
+}
+
+p{
+    padding-left: 40px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px;
+}
+
+input{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px #FFFFFF;
+    margin-left: 50px;
+    width: 80%;
+    height: 40px;
+}
+
+input:hover{
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.600);
+    box-shadow: 0px 0px 0px 1px #ffffff;
+}
+
+.a{
+    grid-row: 1;
+}
+
+.aa{
+    grid-row: 2;
+}
+
+.b{
+    grid-row: 3;
+}
+
+.bb{
+    grid-row: 4;
+}
